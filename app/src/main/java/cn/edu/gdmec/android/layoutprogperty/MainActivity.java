@@ -32,9 +32,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     public void onToggleClicked(View view) {
         boolean on = ((Switch) view).isChecked();
         if (on) {
-            Toast.makeText(MainActivity.this, "對應打开按钮事件", Toast.LENGTH_SHORT).show();
+            Toast.makeText(MainActivity.this, "對應的打开按钮事件", Toast.LENGTH_SHORT).show();
         } else {
-            Toast.makeText(MainActivity.this, "對應关闭按钮事件", Toast.LENGTH_SHORT).show();
+            Toast.makeText(MainActivity.this, "對應的关闭按钮事件", Toast.LENGTH_SHORT).show();
         }
 
     }
